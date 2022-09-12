@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Space Titan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div style="padding:10px;text-align:center;">
+      <h1><u>Space Titan</u></h1>
+    </div>
+
+        <div class="menu">
+          <a class="btn btn-light active" href="Home.html">Home</a>
+          <a class="btn btn-light active" href="News.html">News</a>
+          <a class="btn btn-light active" href="SpaceX.html">SpaceX</a>
+          <a class="btn btn-light active" href="BlueOrigin.html">Blue Origin</a>
+          <a class="btn btn-light active" href="NASA.html">NASA</a>
+          <a class="btn btn-light disabled" href="Notes.html">Note Taking</a>
+        </div>
+
+        <div class="main">
+          <div class="container">
+            <div class="jumbotron" style="background-color: #4E4D4D; margin-bottom: 10px; padding: 10px; margin-top: 10px;">
+              <h2 style="background-color: transparent; text-align: center;"><u>Notes</u></h2>
+              <h3 style="background-color: transparent;">Please enter any notes you wish to take below:</h3>
+              <button onclick="Location()">Display your current location</button>
+              <p class="center" style="padding: 0; max-width: 30%;" id="location"></p>
+            </div>
+            <form>
+              <label style="color: white;">Enter Name: <input type="text" id="Name"></label>
+              <button type="button" style="width: 15%;" class="save_name">Save your Name</button>
+              <button type="button" style="width: 15%;" class="access_name">Get your Name</button>
+            </form>
+            <textarea id="Textbox" class="textbox"></textarea>
+            <button onclick="mySave()">Save</button>
+            <button onclick="myLoad()">Load</button>
+          </div>
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+          <script src="NotesJS.js"></script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
