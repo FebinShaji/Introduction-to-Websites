@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Space Titan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div style="padding:10px;text-align:center;">
+      <h1><u>Space Titan</u></h1>
+    </div>
+
+    <div class="background-image">
+      <div style="overflow:auto">
+        <div class="menu">
+          <a class="btn btn-light active" href="Home.html">Home</a>
+          <a class="btn btn-light disabled" href="News.html">News</a>
+          <a class="btn btn-light active" href="SpaceX.html">SpaceX</a>
+          <a class="btn btn-light active" href="BlueOrigin.html">Blue Origin</a>
+          <a class="btn btn-light active" href="NASA.html">NASA</a>
+          <a class="btn btn-light active" href="Notes.html">Note Taking</a>
+        </div>
+
+        <div class="main">
+          <h2 style="margin-top: 10px;"><u>News</u></h2>
+          <p>- SpaceX has recently tested its serial number 9 starship after a week of anxious waiting for the
+            <u><a style="color: white;" href="#" data-toggle="popover" data-placement="bottom" data-trigger="hover"
+            data-content="The Federal Aviation Administration. It is the largest modern transportation agency
+            in the United States. It regulates civial aviation in the country as well as the surrounding international waters.">FAA</a></h3></u> to approve the launch.
+            The launch took place on the 2nd of February at the Boca Chica test centre. The rocket aimed to fly as high as 10km and the hover for a
+            small amount of time before falling on its belly back down to the ground before reigniting the engines and correctly landing. The rocket
+            achieved everything from launch to the freefall but failed to successfully land and ended up exploding after hitting the ground.</p>
+          <p>- Alongside the test of SN9 SpaceX have also begun reconstruction of its sea-based take-off and landing platforms. The former oil rigs
+            were bought for 7 million and named them
+            <u><a style="color: white;" href="#" data-toggle="popover" data-placement="bottom" data-trigger="hover"
+            data-content="Phobos is a small moon that orbits Mars.">Phobos</a></h3></u> and
+            <u><a style="color: white;" href="#" data-toggle="popover" data-placement="bottom" data-trigger="hover"
+            data-content="Deimos is another small moon that orbits Mars.">Deimos</a></h3></u>. They are planning to have these oil rigs converted so that its new starship
+            can be launched from the sea thus lowering the amount of noise pollution in cities and ensuring people's safety.</p>
+
+          <div class="row">
+            <div class="column">
+              <img src="spacelaunchsystem.jpg" class="rounded" alt="Space Launch System" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="newshepard.jpg" class="rounded" alt="New Shepard" style="width:100%">
+            </div>
+          </div>
+
+          <p>- Blue Origin CEO Jeff Bezos has stepped down from his role at
+            <u><a style="color: white;" href="#" data-toggle="popover" data-placement="bottom" data-trigger="hover"
+            data-content="Amazon is an American multinational technology company that focuses on e-commerce, AI, streaming and cloud computing.">Amazon</a></h3></u> so that he can focus
+            more of his time on Blue Origin. Blue Origin is currently working on its New Shepard rocket trying to improve it so that it can take astronauts or payloads
+            past the Karmian line which is the boundary of space. They are working on making it safer and more reliable as of current.</p>
+          <p>- NASA are 1 week away from its scheduled landing on the Martian surface at it will begin its job of learning about the planet from the moment it enters its atmosphere as it
+            will start a complex set of sensors to collect data. NASA is also making progress on its Artemis program and is testing its rockets core stage and all of its integrated
+            systems. They are targeting another test for the week of February 21.</p>
+
+          <button style="width: 49%;" type="button" id="myBtn" class="btn btn-success">Slide through items</button>
+          <button style="width: 49%;" type="button" id="myBtn2" class="btn btn-danger">Stop slide</button>
+
+          <div id="Carousel" class="carousel slide mt-4" data-interval="500">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="sn9andsn10.jpg" class="rounded" alt="SN9 and SN10">
+              </div>
+              <div class="carousel-item">
+                  <img src="spacexoilrigs.jpg" class="rounded" alt="SpaceX Oil Rigs">
+              </div>
+              <div class="carousel-item">
+                <img src="starshiplaunchplatforms.jpg" class="rounded" alt="SpaceX water launch platforms render">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#Carousel">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#Carousel">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+          <script src="NewsJS.js"></script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
