@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Space Titan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div style="padding:10px;text-align:center;">
+      <h1><u>Space Titan</u></h1>
+    </div>
+
+    <div class="background-image">
+      <div style="overflow:auto">
+        <div class="menu">
+          <a class="btn btn-light disabled" href="Home.html">Home</a>
+          <a class="btn btn-light active" href="News.html">News</a>
+          <a class="btn btn-light active" href="SpaceX.html">SpaceX</a>
+          <a class="btn btn-light active" href="BlueOrigin.html">Blue Origin</a>
+          <a class="btn btn-light active" href="NASA.html">NASA</a>
+          <a class="btn btn-light active" href="Notes.html">Note Taking</a>
+        </div>
+
+        <div class="main">
+          <button style="margin-bottom: 20px; margin-top: 10px;" type="button" class="btn btn-light btn-block" data-toggle="collapse" data-target="#tab1">SpaceX:</button>
+          <div id="tab1" class="collapse show">
+            <p>SpaceX is an American space company whose CEO is Elon Musk. SpaceX has numerous goals which they want to achieve
+              in the coming years. These include reducing the cost fo space flight thus making it available for commercial purposes, developing rocket technology
+              to allow us to reach Mars and eventually also touse space flight as a means of travelling around the world rather than flights.</p>
+            <a id="spacex" class="btn btn-info btn-block btn-sm" style="margin-bottom: 15px;" href="https://www.spacex.com/">SpaceX Website</a>
+          </div>
+          <button style="margin-bottom: 20px;" type="button" class="btn btn-light btn-block" data-toggle="collapse" data-target="#tab2">Blue Origin:</button>
+          <div id="tab2" class="collapse show">
+            <p>Blue Origin also has similar goals to other space companies. One of their main aims is to also reduce the cost
+              of space travel so it can be made widely available to the public. They are also working on travelling to the moon and setting up bases and exploring the
+              lunar surface.</p>
+            <a id="blueorigin" class="btn btn-info btn-block btn-sm" style="margin-bottom: 15px;" href="https://www.blueorigin.com/">Blue Origin Website</a>
+          </div>
+
+          <div class="alert remove">
+            <span class="fas fa-exclamation"></span>
+            <span class="message">Toggling Information!</span>
+            <div class="button_close">
+              <span class="fas fa-times"></span>
+            </div>
+          </div>
+
+          <div class="slideshow">
+             <div class="slideshow_pics">
+                 <div class="pictures active">
+                    <img src="spacexdragon.jpg"/>
+                 </div>
+                 <div class="pictures">
+                    <img src="bluemoon.jpg"/>
+                 </div>
+                 <div class="pictures">
+                    <img src="merlinengine.jpg"/>
+                 </div>
+                 <div class="pictures">
+                    <img src="jeffbezos.jpg"/>
+                 </div>
+             </div>
+                 <div class="left_arrow"><</div>
+                 <div class="right_arrow">></div>
+          </div>
+
+          <button style="margin-bottom: 20px;" type="button" class="btn btn-light btn-block" data-toggle="collapse" data-target="#tab3">NASA:</button>
+          <div id="tab3" class="collapse show">
+            <p>NASA is the US space agency and over the past years they have been cooperating a lot with commercial companies such as
+              SpaceX and Blue Origin. They are interested in revisiting the Moon however this time they want to carry our further studies about the lunar surface
+              and gain a deeper understanding of it. They are working with multiple space companies to achieve this goal.</p>
+            <a id="NASA" class="btn btn-info btn-block btn-sm" style="margin-bottom: 15px;" href="https://www.nasa.gov/">NASA Website</a>
+          </div>
+          <img src="moonmars.jpg" alt="Moon and Mars" class="center">
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+          <script src="HomeJS.js"></script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
