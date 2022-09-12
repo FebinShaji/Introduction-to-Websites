@@ -1,0 +1,248 @@
+html,body {
+  width: 100%;
+  height: 100%;
+  min-width: 1400px;
+  min-height: 1000px;
+  max-width: 1920px;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+h2 {
+  position: absolute;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.section-1 {
+  width: 100%;
+  height: 425px;
+}
+
+.section-2 {
+  width: 100%;
+  height: 425px;
+}
+
+.navigation1 {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navigation1 a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation2 {
+  float: left;
+  overflow: hidden;
+}
+
+.navigation1 .compnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navigation1 a:hover, .navigation2:hover .compnavbtn {
+  background-color: red;
+}
+
+.navigation2-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+.navigation2-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.navigation2-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.navigation2:hover .navigation2-content {
+  display: block;
+}
+
+.background1-image {
+  background-image: url("Earth.jpg");
+  background-color: #cccccc;
+  height: 1100px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.slider{
+  width:  750px;
+  height: 490px;
+  background: url("spacexdragon.jpg");
+  margin: 40px;
+  animation: slide 20s infinite;
+}
+
+@keyframes slide{
+  25%{
+    background: url("spacexdragon.jpg");
+  }
+  50%{
+    background: url("bluemoon.jpg");
+  }
+  75%{
+    background: url("merlinengine.jpg");
+  }
+  100%{
+    background: url("jeffbezos.jpg");
+  }
+}
+
+.company-image1 {
+  width: 590px;
+  position: absolute;
+  top: 15%;
+  left: 2%;
+}
+
+.company-image2 {
+  width: 690px;
+  position: absolute;
+  bottom: 15%;
+  right: 2%;
+}
+
+.company-image3 {
+  width: 550px;
+  position: absolute;
+  bottom: 1%;
+  left: 7%;
+}
+
+.company-title {
+  position: absolute;
+  font-size: 1.8vw;
+  top: 100px;
+  left: 650px;
+}
+
+.company-mission {
+  position: absolute;
+  padding-right: 20px;
+  font-size: 1.35vw;
+  top: 180px;
+  left: 650px;
+}
+
+.company-mission2 {
+  position: absolute;
+  padding-right: 760px;
+  padding-left: 10px;
+  font-size: 1.35vw;
+  top: 590px;
+  left: 20px;
+}
+
+.company-quote {
+  position: absolute;
+  padding-top: 10px;
+  padding-right: 20px;
+  text-align: center;
+  font-size: 1.4vw;
+  top: 46%;
+  left: 650px;
+}
+
+.gallery-image1 {
+  width: 550px;
+  position: absolute;
+  bottom: 9%;
+  right: 2%;
+}
+
+.gallery-image2 {
+  width: 350px;
+  position: absolute;
+  top: 13%;
+  left: 2%;
+}
+
+.gallery-image3 {
+  width: 320px;
+  position: absolute;
+  top: 18%;
+  right: 2%;
+}
+
+.gallery-image4 {
+  width: 550px;
+  position: absolute;
+  bottom: 7%;
+  left: 2%;
+}
+
+.news1 {
+  position: absolute;
+  padding-right: 370px;
+  font-size: 1.35vw;
+  top: 180px;
+  left: 400px;
+}
+
+.news2 {
+  position: absolute;
+  padding-right: 620px;
+  font-size: 1.35vw;
+  top: 690px;
+  left: 600px;
+}
+
+.home-image1 {
+  width: 600px;
+  position: absolute;
+  bottom: 9%;
+  right: 10%;
+}
+
+.home {
+  position: absolute;
+  padding-right: 20px;
+  font-size: 1.35vw;
+  top: 140px;
+  left: 850px;
+}
+
+.home2 {
+  position: absolute;
+  padding-right: 800px;
+  font-size: 1.35vw;
+  bottom: 120px;
+  left: 50px;
+}
